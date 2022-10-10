@@ -2,24 +2,21 @@
 Feature: US001 Background Kullanimi
 
   Background: Ortak adimlar
-    Given Kullanici amazon sayfasina gider
+    Given kullanici amazon sayfasina gider
 
 
-  Scenario: TC01 Kullanici amazonda nutella aratir
+  Scenario: TC01 kullanici amazonda Nutella aratir
 
+    Then kullanici Nutella icin arama yapar
+    And sonuclarin Nutella icerdigini test eder
 
-    Then Kullanici nutella aratir
-    And Sonuclarin nutella icerdigini test eder
+  Scenario: TC02 kullanici amazonda Selenium aratir
 
-  Scenario: TC02 Kullanici amazonda Selenium aratir
+    Then kullanici Selenium icin arama yapar
+    And sonuclarin Selenium icerdigini test eder
 
+  Scenario: TC03 kullanici amazonda iphone aratir
 
-    Then Kullanici Selenium aratir
-    And Sonuclarin Selenium icerdigini test eder
-
-  Scenario: TC03 Kullanici amazonda iphone aratir
-
-
-    Then Kullanici iphone aratir
-    And Sonuclarin iphone icerdigini test eder
-    And Sayfayi kapatir
+    Then kullanici iphone icin arama yapar
+    And sonuclarin iphone icerdigini test eder
+    And sayfayi kapatir

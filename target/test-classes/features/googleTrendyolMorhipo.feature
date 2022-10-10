@@ -12,4 +12,3 @@ Feature: Trendyol Morhipo Makas
     And iki sitedeki topla makas sayisini karsilastirir
     And once urun sayisi fazla olan siteyi kapatir
     And sonra diger sayfayi kapatir
-

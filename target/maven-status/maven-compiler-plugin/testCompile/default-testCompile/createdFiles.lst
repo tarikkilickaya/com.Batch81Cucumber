@@ -1,3 +1,4 @@
 pages\TutorialPage.class
 runners\Runner.class
+stepDefinitions\HepsiBuradaStepDefinition.class
 stepDefinitions\TutorialStepDefiniton.class

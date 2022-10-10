@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@Background", // İki tagı aynı anda çalıştırmak istersek or kullanırız.
+        tags = "@parametre", // İki tagı aynı anda çalıştırmak istersek or kullanırız.
         dryRun = false
 )
 
