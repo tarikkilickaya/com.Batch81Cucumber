@@ -3,13 +3,20 @@ package stepDefinitions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.junit.Assert;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.BlueRentalCarsPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
+import java.time.Duration;
+
 public class BlueRentalCarsStepDefiniton {
 
     BlueRentalCarsPage blueRentalCarsObje = new BlueRentalCarsPage();
+
+    WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(15));
 
     @Given("kullanici bluerentacar ana sayfasinda")
     public void kullaniciBluerentacarAnaSayfasinda() {
@@ -38,11 +45,12 @@ public class BlueRentalCarsStepDefiniton {
 
     @Then("sayfaya giris yapilamadigini kontrol eder")
     public void sayfayaGirisYapilamadiginiKontrolEder() {
-
+        wait.until(ExpectedConditions.visibilityOf(blueRentalCarsObje.oturumAcilamadi));
+        Assert.assertTrue(blueRentalCarsObje.oturumAcilamadi.isDisplayed());
     }
 
     @And("kulllanici sayfayi kapatir")
     public void kulllaniciSayfayiKapatir() {
-
+        Driver.quitDriver();
     }
 }

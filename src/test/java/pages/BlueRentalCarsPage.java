@@ -24,4 +24,8 @@ public class BlueRentalCarsPage {
 
     @FindBy(xpath = "//*[@id='dropdown-basic-button']")
     public WebElement oturumAcildi;
+
+    @FindBy(xpath = "//*[text()='invalid credentials']")
+    public WebElement oturumAcilamadi;
+
 }
