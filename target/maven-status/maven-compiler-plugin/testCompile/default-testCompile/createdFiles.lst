@@ -1,8 +1,14 @@
 pages\TutorialPage.class
 stepDefinitions\Practice_TC_07StepDefiniton.class
 stepDefinitions\HepsiBuradaStepDefinition.class
+pages\EditorDataBasePage.class
+stepDefinitions\HerOkuAppStepDefinition.class
+stepDefinitions\EditorDataBaseStepDefinition.class
+stepDefinitions\PracticeAmazonStepDefiniton.class
 pages\PracticeTC07Page.class
 runners\Runner.class
 stepDefinitions\BlueRentalCarsStepDefiniton.class
+stepDefinitions\BlueRentalCarsStepDefinition.class
 pages\BlueRentalCarsPage.class
+pages\HerOkuAppPage.class
 stepDefinitions\TutorialStepDefiniton.class
