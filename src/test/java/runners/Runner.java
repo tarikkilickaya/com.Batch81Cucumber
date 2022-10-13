@@ -7,9 +7,12 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+        plugin = {"html:target/cucumber-reports.html",
+                "json:target/json-reports/cucumber.json",
+                "junit:target/xml-report/cucumber.xml"},
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@PracticeAmazon", // İki tagı aynı anda çalıştırmak istersek or kullanırız.
+        tags = "@gp5", // İki tagı aynı anda çalıştırmak istersek or kullanırız.
         dryRun = false
 )
 
