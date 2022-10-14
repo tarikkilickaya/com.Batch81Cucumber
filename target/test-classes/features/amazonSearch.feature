@@ -14,7 +14,7 @@ Feature: Amazon Search
     Then kullanici Selenium icin arama yapar
     And sonuclarin Selenium icerdigini test eder
 
-  @gp2
+  @gp1
   Scenario: TC03 kullanici amazonda iphone aratir
 
     Given kullanici amazon sayfasina gider

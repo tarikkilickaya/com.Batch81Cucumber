@@ -3,9 +3,12 @@ C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\De
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\AmazonPage.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\HepsiBuradaStepDefinition.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\AmazonStepDefinition.java
+C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\WebDriverUniversityStepDefiniton.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\EditorDataBaseStepDefinition.java
+C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\WebDriverUniversityPage.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\PracticeAmazonStepDefiniton.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\TutorialStepDefiniton.java
+C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\runners\TestRunne.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\DemoGuruPage.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\utilities\ConfigReader.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\BlueRentalCarsStepDefiniton.java
@@ -19,6 +22,7 @@ C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\TutorialPage
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\utilities\ReusableMethods.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\BlueRentalCarsPage.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\PracticeTestPageStepDefiniton.java
+C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\runners\TestRunne2.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\HerOkuAppStepDefinition.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\utilities\Driver.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\Practice_TC_07StepDefiniton.java
