@@ -1,26 +1,45 @@
 package stepDefinitions;
 
 import io.cucumber.java.en.And;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import pages.DemoGuruPage;
+import io.cucumber.java.en.When;
+import org.junit.Assert;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import pages.DemoPage;
 import utilities.Driver;
 
-import java.util.List;
+import java.time.Duration;
 
 public class DemoGuruStepDefinition {
 
-    DemoGuruPage demoGuruObje = new DemoGuruPage();
+    DemoPage obje = new DemoPage();
 
-    @And("{string} sutunundaki tum degerleri yazdirir")
-    public void sutunundakiTumDegerleriYazdirir(String baslik) {
-        int index = 0;
-        for (int i = 0; i < demoGuruObje.basliklar.size(); i++) {
-            if (demoGuruObje.basliklar.get(i).getText().equals(baslik)) {
-                index = i + 1;
-                List<WebElement> sutunElement = Driver.getDriver().findElements(By.xpath("//tbody//tr//td[" + index + "]"));
-                sutunElement.forEach(t -> System.out.println(t.getText()));
-            }
-        }
+    WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(15));
+
+    @When("kullanici Alerts butonuna tiklar")
+    public void kullaniciAlertsButonunaTiklar() {
+        obje.alerts.click();
+    }
+
+    @And("kullanici On button click, alert will appear after bes seconds karsisindaki click me  butonuna basar")
+    public void kullaniciOnButtonClickAlertWillAppearAfterBesSecondsKarsisindakiClickMeButonunaBasar() {
+        obje.onButtonClick.click();
+    }
+
+    @And("kullanici Allertin gorunur olmasini bekler")
+    public void kullaniciAllertinGorunurOlmasiniBekler() {
+        wait.until(ExpectedConditions.alertIsPresent());
+    }
+
+    @And("kullanici Allert uzerindeki yazinin This alert appeared after bes seconds oldugunu test eder")
+    public void kullaniciAllertUzerindekiYazininThisAlertAppearedAfterBesSecondsOldugunuTestEder() {
+        String expectedText = "This alert appeared after 5 seconds";
+        String actualText = Driver.getDriver().switchTo().alert().getText();
+        Assert.assertEquals(expectedText, actualText);
+    }
+
+    @And("kullanici Ok diyerek alerti kapatin")
+    public void kullaniciOkDiyerekAlertiKapatin() {
+        Driver.getDriver().switchTo().alert().accept();
     }
 }
