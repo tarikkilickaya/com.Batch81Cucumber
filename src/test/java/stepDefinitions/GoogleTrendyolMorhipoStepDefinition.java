@@ -96,9 +96,9 @@ public class GoogleTrendyolMorhipoStepDefinition {
         }
     }
 
-    @And("sonra diger sayfayi kapatir")
-    public void sonraDigerSayfayiKapatir() throws InterruptedException {
-        Thread.sleep(2000);
-        Driver.quitDriver();
-    }
+   @And("sonra diger sayfayi kapatir")
+   public void sonraDigerSayfayiKapatir() throws InterruptedException {
+       Thread.sleep(2000);
+       Driver.quitDriver();
+   }
 }

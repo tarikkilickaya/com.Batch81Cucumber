@@ -1,6 +1,7 @@
 package stepDefinitions;
 
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -41,5 +42,25 @@ public class DemoGuruStepDefinition {
     @And("kullanici Ok diyerek alerti kapatin")
     public void kullaniciOkDiyerekAlertiKapatin() {
         Driver.getDriver().switchTo().alert().accept();
+    }
+
+    @Then("kullanici Will enable bes seconds butonunun enable olmasini bekler")
+    public void kullaniciWillEnableBesSecondsButonununEnableOlmasiniBekler() {
+        wait.until(ExpectedConditions.elementToBeClickable(obje.willEnable));
+    }
+
+    @And("kullanici Will enable bes seconds butonunun enable oldugunu test eder")
+    public void kullaniciWillEnableBesSecondsButonununEnableOldugunuTestEder() {
+        Assert.assertTrue(obje.willEnable.isEnabled());
+    }
+
+    @Then("Visible After bes seconds butonunun gorunur olmasini bekler")
+    public void visibleAfterBesSecondsButonununGorunurOlmasiniBekler() {
+        wait.until(ExpectedConditions.visibilityOf(obje.visibilityAfter));
+    }
+
+    @And("Visible After bes seconds butonunun gorunur oldugunu test eder")
+    public void visibleAfterBesSecondsButonununGorunurOldugunuTestEder() {
+        Assert.assertTrue(obje.visibilityAfter.isDisplayed());
     }
 }

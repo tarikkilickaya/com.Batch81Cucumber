@@ -75,8 +75,8 @@ public class PracticeAmazonStepDefiniton {
         Assert.assertTrue(amazonObje.createAccountYazisi.isDisplayed());
     }
 
-    @Then("websayfasini kapatir")
-    public void websayfasini_kapatir() {
-        Driver.quitDriver();
-    }
+   @Then("websayfasini kapatir")
+   public void websayfasini_kapatir() {
+       Driver.quitDriver();
+   }
 }

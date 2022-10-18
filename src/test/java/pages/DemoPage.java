@@ -16,10 +16,11 @@ public class DemoPage {
     @FindBy(xpath = "//*[@id='timerAlertButton']")
     public WebElement onButtonClick;
 
+    @FindBy(xpath = "//*[@id='enableAfter']")
+    public WebElement willEnable;
 
-
-
-
+    @FindBy(xpath = "//*[@id='visibleAfter']")
+    public WebElement visibilityAfter;
 
 
 
