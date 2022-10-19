@@ -13,6 +13,7 @@ C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\DemoGuruPage
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\utilities\ConfigReader.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\BlueRentalCarsStepDefiniton.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\HerOkuAppPage.java
+C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\PracticeNegativeTestPage.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\BlueRentalCarsStepDefinition.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\GoogleTrendyolMorhipoPage.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\GoogleTrendyolMorhipoStepDefinition.java
@@ -28,4 +29,5 @@ C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\utilities\Driver.j
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\Practice_TC_07StepDefiniton.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\Hooks.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\AutoStepDefinition.java
+C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\PracticeNegativeTestStepDefinition.java
 C:\Users\Tarik\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\PracticeFormStepDefinition.java

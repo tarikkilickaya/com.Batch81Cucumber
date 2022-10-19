@@ -8,12 +8,14 @@ stepDefinitions\HerOkuAppStepDefinition.class
 pages\AmazonPage.class
 utilities\Driver.class
 stepDefinitions\Hooks.class
+pages\PracticeNegativeTestPage.class
 stepDefinitions\BlueRentalCarsStepDefinition.class
 pages\HerOkuAppPage.class
 utilities\ReusableMethods$1.class
 stepDefinitions\Practice_TC_07StepDefiniton.class
 pages\EditorDataBasePage.class
 pages\WebDriverUniversityPage.class
+stepDefinitions\PracticeNegativeTestStepDefinition.class
 utilities\ReusableMethods.class
 pages\PracticeFormPage.class
 pages\AutoPage.class
