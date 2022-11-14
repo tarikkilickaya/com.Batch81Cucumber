@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="3.287">
+    <testcase classname="US014 Class Work" name="Kullanici ve Url Testi" time="3.122">
+        <failure message="Index 1 out of bounds for length 1" type="java.lang.IndexOutOfBoundsException"><![CDATA[Given kullanici "webDriverUniversityUrl" adresine gider.....................passed
+Then kullanici Login Portala kadar asagi iner...............................passed
+And kullanici Login Portala tiklar..........................................passed
+And kullanici diger windowa gecer...........................................failed
+And kullanici "username" kutusuna bilgileri girer...........................skipped
+And kullanici "password" bolumune bilgileri girer...........................skipped
+And kullanici login butonuna basar..........................................skipped
+And kullanici Popup'ta cikan yazinin validation failed oldugunu test eder...skipped
+And kullanici Ok diyerek Popup'i kapatir....................................skipped
+And kullanici ilk sayfaya geri doner........................................skipped
+And kullanici ilk sayfaya donuldugunu test eder.............................skipped
+
+StackTrace:
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at stepDefinitions.WebDriverUniversityStepDefiniton.kullaniciDigerWindowaGecer(WebDriverUniversityStepDefiniton.java:33)
+	at ✽.kullanici diger windowa gecer(file:///C:/Users/Tarik/IdeaProjects/com.Batch81Cucumber/src/test/resources/features/US15_ClassWork2.feature:7)
+]]></failure>
+    </testcase>
+</testsuite>
